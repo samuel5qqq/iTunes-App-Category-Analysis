@@ -135,8 +135,8 @@ def main():
                   , "ios-news.csv", "ios-travel.csv"]
 
     # second argument is the number of tuple wanted to get from csv
-    #totalnumber = int(sys.argv[1])
-    totalnumber = 1
+    totalnumber = int(sys.argv[1])
+
     for i in range(len(links_file)):
         line = str(links_file[i]).split(".")
         app_info_file = line[0]+"tmp.csv"
