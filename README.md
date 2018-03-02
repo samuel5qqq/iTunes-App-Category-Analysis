@@ -4,7 +4,7 @@ Implemented multiple classification training models to predict the category of a
 
 Classification Algorithm (1)Multinomial Naïve Bayes (2)Support Vector Machine (3)K-NN (4)Random Forest (5)Multiple Layer Perceptron
 
-# Program Process
+## Program Process
 
 ### Scrap data link from iTunes store
 - First, use beautiful soup to scarp link from iTunes store based on different categories. 
@@ -28,7 +28,7 @@ Classification Algorithm (1)Multinomial Naïve Bayes (2)Support Vector Machine (
 ### Data Visualization: confusion matrix
 - Used matrics.confusion_matrix from sklearn to present the result in matrix form. Then used matplotlib.pyplot to plot out the confusion matrix. To make the data easier to interpret, normalized the data so each row of accuracy weight summed to 1.
 
-# Running the Program
+## Running the Program
 
 1. Scrap app link from iTunes Store <br/>
 python app_crawler.py
@@ -40,3 +40,32 @@ python classification_sklearn_knn_rf.py
 python classification_sklearn_mlp.py
 5. Multinomial Naïve Bayes and Support Vector Machine<br/>
   python classification_sklearn_nb_svm.py
+  
+## Classification Result
+
+Multinomial Naïve Bayes
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20NB%20cm.png" />
+</p>
+
+Support Vector Machine
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20SVM%20cm.png" />
+</p>
+
+Multiple Layer Perceptron
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20stemmed%20MLP%20cm.png" />
+</p>
+
+Random Forest
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20stemmed%20Random%20Forest%20cm.png" />
+</p>
+
+K-NN
+<p align="Left">
+  <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20stemmed%20k-NN%20cm.png" />
+</p>
+
+
