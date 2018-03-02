@@ -43,27 +43,27 @@ python classification_sklearn_mlp.py
   
 ## Classification Result
 
-Multinomial Naïve Bayes
+### Multinomial Naïve Bayes
 <p align="Left">
   <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20NB%20cm.png" />
 </p>
 
-Support Vector Machine
+### Support Vector Machine
 <p align="Left">
   <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20SVM%20cm.png" />
 </p>
 
-Multiple Layer Perceptron
+### Multiple Layer Perceptron
 <p align="Left">
   <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20stemmed%20MLP%20cm.png" />
 </p>
 
-Random Forest
+### Random Forest
 <p align="Left">
   <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20stemmed%20Random%20Forest%20cm.png" />
 </p>
 
-K-NN
+### K-NN
 <p align="Left">
   <img src="https://github.com/samuel5qqq/iTunes-App-Category-Analysis/blob/master/Classification%20Result/Norm%20stemmed%20k-NN%20cm.png" />
 </p>
