@@ -1,4 +1,4 @@
-# Project descrption 
+# Project description 
 
 Implemented multiple classification training models to predict the category of a random testing application. Used description of each application in the training set to form the training model.
 
